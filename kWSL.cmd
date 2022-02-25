@@ -1,9 +1,9 @@
 @ECHO OFF & NET SESSION >NUL 2>&1 
 IF %ERRORLEVEL% == 0 (ECHO Administrator check passed...) ELSE (ECHO You need to run this command with administrative rights.  Is User Account Control enabled? && pause && goto ENDSCRIPT)
 COLOR 1F
-SET GITORG=DesktopECHO
+SET GITORG=stuck1a
 SET GITPRJ=kWSL
-SET BRANCH=master
+SET BRANCH=main
 SET BASE=https://github.com/%GITORG%/%GITPRJ%/raw/%BRANCH%
 
 REM ## Enable WSL if required
